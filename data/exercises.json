@@ -1,0 +1,1244 @@
+{
+  "meta": {
+    "title": "Conditionals and too / either — online teaching and practice",
+    "title_zh": "條件句與 too / either——網上教學活動與練習",
+    "level": "Hong Kong P6, British school English",
+    "source": "Photographed exam-scope pages B22–B24 (1.8 Conditional sentences) and B34 (3.2 Adverbs ‘too’ and ‘either’). No series imprint is visible in the photographs.",
+    "intended_repo": "Peter_GB_exam",
+    "question_language": "en-GB",
+    "instruction_language": "zh-Hant",
+    "instruction_style": "Formal Traditional Chinese for student-facing directions; English for stems, options and answers.",
+    "spelling": "British (practise as a verb, programmes if used, Maths, colour).",
+    "station_count": 5,
+    "question_count_core": 36,
+    "auto_marked_count": 35,
+    "teacher_review_count": 1,
+    "scoring_storage": "Specify content and expected interaction only. Do not assume a central score server, accounts, or saved results. Any scoring or storage can be added later.",
+    "marking_principles": {
+      "first_attempt_unhinted": "The first submit of an auto-marked item is the first attempt. Do not show the hint before that attempt.",
+      "hint_after_first_error": "If the first attempt is wrong, show first_error hint and allow at least one retry. A later correct retry is not a first-correct result.",
+      "answer_matching": "Compare auto-marked answers case-insensitively. Ignore extra inner spaces and a single final full stop or exclamation mark. Accept listed variants in accepted_answers. Normalise straight and curly apostrophes. Normalise I'll / I will, I'd / I would, won't / will not, don't / do not, doesn't / does not, isn't / is not, aren't / are not, shouldn't / should not. For MCQs use correct_option_id, not literal answer-text equality. In this pack, do not accept was in place of were in second conditionals, will in place of would in second conditionals, or had in a first-conditional if-clause when the key is have.",
+      "teacher_review": "Open writing is not auto-marked and must not be treated as automatic mastery. Store or display the work for the teacher. Model answers are guidance only and are marked 範例／教師用. Do not use a strict sentence-count regex that would reject abbreviations such as Mr or Mr Brown."
+    },
+    "out_of_scope": "so that (other units); listening; pictures the pupil must see in order to answer; photocopying textbook stems; building the website, repository or PR in this authoring phase."
+  },
+  "stations": [
+    {
+      "id": "S1",
+      "order": 1,
+      "title": "Three types of conditional",
+      "title_zh": "第一關：認識三種條件句（教學活動）",
+      "intro_zh": "本關先以簡短教學畫面說明零條件句、第一條件句和第二條件句的用途與形式，以及 if 的位置。請先閱讀教學說明，再作答。作答時請先自行嘗試；如第一次答錯，才會出現提示。",
+      "intro_en": "Read the short teaching screens about zero, first and second conditionals, and about the position of if. Then sort meanings and forms.",
+      "teaching_required_before_questions": true,
+      "teaching_screens": [
+        {
+          "id": "S1-T1",
+          "title_zh": "條件句與 if 的位置",
+          "title_en": "Conditional sentences and the position of if",
+          "body_zh": "我們用 if 來組成條件句。if 可以放在句首，也可以放在句子中間。兩句意思相同。if 放在句首時，條件子句後面通常加逗號；if 放在句中時，通常不加逗號。",
+          "body_en": "We use if in conditional sentences. We can put if at the beginning of a sentence or in the middle. The meaning is the same.",
+          "examples": [
+            {
+              "en": "If it is windy, we won’t fly our kites.",
+              "en_alt": "We won’t fly our kites if it is windy.",
+              "note_zh": "以上兩句意思相同。"
+            }
+          ]
+        },
+        {
+          "id": "S1-T2",
+          "title_zh": "零條件句 Zero conditional",
+          "title_en": "Zero conditional",
+          "body_zh": "零條件句用來表示事實，即永遠正確的事情。條件子句和主句都用現在式。若要提出建議，主句可以用 should，或用祈使句（包括 don’t …）。",
+          "body_en": "We use zero conditional sentences for facts, i.e. things that are always true. Both clauses use the present tense. We can use should or the imperative in the main clause to give advice.",
+          "examples": [
+            {
+              "en": "If you put salt on ice, it melts.",
+              "note_zh": "事實：現在式 + 現在式"
+            },
+            {
+              "en": "If you are tired, you should go to bed.",
+              "note_zh": "建議：主句用 should"
+            },
+            {
+              "en": "If you feel hungry, eat a banana.",
+              "note_zh": "建議：主句用祈使句"
+            },
+            {
+              "en": "If you’ve got a headache, don’t play computer games for too long.",
+              "note_zh": "建議：否定祈使句"
+            }
+          ]
+        },
+        {
+          "id": "S1-T3",
+          "title_zh": "第一條件句 First conditional",
+          "title_en": "First conditional",
+          "body_zh": "第一條件句用來談論可能或頗有可能發生的結果。條件子句用現在式，主句用 will（將來式）。",
+          "body_en": "We use first conditional sentences to talk about possible or probable results, i.e. things that will probably happen. Use the present tense in the if-clause and will in the main clause.",
+          "examples": [
+            {
+              "en": "If we shout in the library, the librarian will stop us.",
+              "note_zh": "可能發生的結果：現在式 + will"
+            }
+          ]
+        },
+        {
+          "id": "S1-T4",
+          "title_zh": "第二條件句 Second conditional",
+          "title_en": "Second conditional",
+          "body_zh": "第二條件句用來談論不存在的情況，或不大可能發生的事情。條件子句用過去式，主句用 would + 動詞原形。動詞 be 在所有主詞後面都用 were，包括 I、he、she 和 it，不要寫 was。",
+          "body_en": "We use second conditional sentences to talk about situations that do not exist, or events that are unlikely to happen. Use a past tense in the if-clause and would + a base verb in the main clause. We use were for all subjects, i.e. I, you, we, they, he, she and it.",
+          "examples": [
+            {
+              "en": "If I had a time machine, I would visit ancient China.",
+              "note_zh": "不大可能的情況：過去式 + would + 原形"
+            },
+            {
+              "en": "If I were a chef, I would cook dinner for my class.",
+              "note_zh": "所有主詞都用 were，不要寫 If I was"
+            }
+          ]
+        }
+      ],
+      "question_count": 8,
+      "questions": [
+        {
+          "id": "S1-Q01",
+          "type": "mcq",
+          "prompt": "We use this type of conditional sentence for facts — things that are always true.",
+          "prompt_zh": "請選出用途正確的條件句種類。",
+          "options": [
+            {
+              "id": "A",
+              "text": "Zero conditional"
+            },
+            {
+              "id": "B",
+              "text": "First conditional"
+            },
+            {
+              "id": "C",
+              "text": "Second conditional"
+            },
+            {
+              "id": "D",
+              "text": "A question that only uses when"
+            }
+          ],
+          "correct_option_id": "A",
+          "accepted_answers": [
+            "Zero conditional"
+          ],
+          "hints": {
+            "first_error": "Think of something that happens every time, such as ice melting in a warm room."
+          },
+          "feedback": {
+            "correct": "正確。答案是 Zero conditional。",
+            "explanatory": "The zero conditional is used for facts, i.e. things that are always true. The first conditional is for possible or probable results. The second conditional is for situations that do not exist, or events that are unlikely."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S1-Q02",
+          "type": "mcq",
+          "prompt": "We use this type of conditional sentence to talk about possible or probable results — things that will probably happen.",
+          "prompt_zh": "請選出用途正確的條件句種類。",
+          "options": [
+            {
+              "id": "A",
+              "text": "Zero conditional"
+            },
+            {
+              "id": "B",
+              "text": "First conditional"
+            },
+            {
+              "id": "C",
+              "text": "Second conditional"
+            },
+            {
+              "id": "D",
+              "text": "Only sentences that give advice"
+            }
+          ],
+          "correct_option_id": "B",
+          "accepted_answers": [
+            "First conditional"
+          ],
+          "hints": {
+            "first_error": "This type looks ahead to a result that may really happen, and the main clause often uses will."
+          },
+          "feedback": {
+            "correct": "正確。答案是 First conditional。",
+            "explanatory": "The first conditional talks about possible or probable results. We use the present tense in the if-clause and will in the main clause. The zero conditional is for facts that are always true."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S1-Q03",
+          "type": "mcq",
+          "prompt": "We use this type of conditional sentence to talk about situations that do not exist, or events that are unlikely to happen.",
+          "prompt_zh": "請選出用途正確的條件句種類。",
+          "options": [
+            {
+              "id": "A",
+              "text": "Zero conditional"
+            },
+            {
+              "id": "B",
+              "text": "First conditional"
+            },
+            {
+              "id": "C",
+              "text": "Second conditional"
+            },
+            {
+              "id": "D",
+              "text": "Only sentences that start with When"
+            }
+          ],
+          "correct_option_id": "C",
+          "accepted_answers": [
+            "Second conditional"
+          ],
+          "hints": {
+            "first_error": "Think of an imaginary or very unlikely situation, such as having a time machine."
+          },
+          "feedback": {
+            "correct": "正確。答案是 Second conditional。",
+            "explanatory": "The second conditional is for situations that do not exist, or events that are unlikely. We use a past tense in the if-clause and would + a base verb in the main clause. We use were for all subjects, including I."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S1-Q04",
+          "type": "mcq",
+          "prompt": "Which sentence is a zero conditional sentence for a fact that is always true?",
+          "prompt_zh": "請選出零條件句（表示永遠正確的事實）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "If you froze water, it would become ice."
+            },
+            {
+              "id": "B",
+              "text": "If you froze water, it becomes ice."
+            },
+            {
+              "id": "C",
+              "text": "If you freeze water, it becomes ice."
+            },
+            {
+              "id": "D",
+              "text": "If you freeze water, it will become ice this Saturday only."
+            }
+          ],
+          "correct_option_id": "C",
+          "accepted_answers": [
+            "If you freeze water, it becomes ice."
+          ],
+          "hints": {
+            "first_error": "A fact uses the present tense in both parts, not would, and not a one-off future plan."
+          },
+          "feedback": {
+            "correct": "正確。答案是 If you freeze water, it becomes ice.",
+            "explanatory": "Zero conditionals use the present tense in both clauses: If you freeze water, it becomes ice. A is a second conditional (past + would). D points to one future time, not a general fact. B mixes a past if-clause with a present main clause."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S1-Q05",
+          "type": "mcq",
+          "prompt": "Which sentence talks about a possible result that will probably happen?",
+          "prompt_zh": "請選出第一條件句（表示可能／頗有可能發生的結果）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "If you heat butter, it melts."
+            },
+            {
+              "id": "B",
+              "text": "If it is sunny on Saturday, we will go cycling."
+            },
+            {
+              "id": "C",
+              "text": "If it were sunny every day, we would never need umbrellas."
+            },
+            {
+              "id": "D",
+              "text": "If it was sunny on Saturday, we will go cycling."
+            }
+          ],
+          "correct_option_id": "B",
+          "accepted_answers": [
+            "If it is sunny on Saturday, we will go cycling."
+          ],
+          "hints": {
+            "first_error": "Look for a real, possible plan, with the present tense after if and will in the main clause."
+          },
+          "feedback": {
+            "correct": "正確。答案是 If it is sunny on Saturday, we will go cycling.",
+            "explanatory": "This is a first conditional: Saturday may be sunny, and the result will probably happen. A is a zero-conditional fact. C is a second conditional about an unlikely world. D mixes a past if-clause with will, which is not a correct first-conditional form."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S1-Q06",
+          "type": "mcq",
+          "prompt": "Which sentence is a correct second conditional for an unlikely situation?",
+          "prompt_zh": "請選出形式正確的第二條件句（表示不大可能的情況）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "If I had a spaceship, I will visit the moon."
+            },
+            {
+              "id": "B",
+              "text": "If I have a spaceship, I will visit the moon."
+            },
+            {
+              "id": "C",
+              "text": "If I had a spaceship, I would visit the moon."
+            },
+            {
+              "id": "D",
+              "text": "If I have a spaceship, I would visit the moon."
+            }
+          ],
+          "correct_option_id": "C",
+          "accepted_answers": [
+            "If I had a spaceship, I would visit the moon."
+          ],
+          "hints": {
+            "first_error": "For an unlikely situation, use a past tense after if, and would + a base verb in the main clause. Do not mix will with a past if-clause."
+          },
+          "feedback": {
+            "correct": "正確。答案是 If I had a spaceship, I would visit the moon.",
+            "explanatory": "Second conditionals use a past tense in the if-clause and would + a base verb: If I had a spaceship, I would visit the moon. B is a first-conditional pattern (possible, not the unlikely form asked for). A mixes will with a past if-clause. D mixes would with a present if-clause."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S1-Q07",
+          "type": "mcq",
+          "prompt": "These two ideas have the same meaning: “If the shop is closed, we will come back tomorrow.” Which sentence below has the same meaning?",
+          "prompt_zh": "if 也可放在句子中間。請選出意思相同的句子。",
+          "options": [
+            {
+              "id": "A",
+              "text": "If we will come back tomorrow, the shop is closed."
+            },
+            {
+              "id": "B",
+              "text": "We will come back tomorrow if the shop is closed."
+            },
+            {
+              "id": "C",
+              "text": "The shop is closed, we will come back tomorrow if."
+            },
+            {
+              "id": "D",
+              "text": "If the shop will be closed, we come back tomorrow."
+            }
+          ],
+          "correct_option_id": "B",
+          "accepted_answers": [
+            "We will come back tomorrow if the shop is closed."
+          ],
+          "hints": {
+            "first_error": "Keep the same two parts. You may move the if-clause to the end. Do not put will in the if-clause."
+          },
+          "feedback": {
+            "correct": "正確。答案是 We will come back tomorrow if the shop is closed.",
+            "explanatory": "We can put if at the beginning or in the middle. If the shop is closed, we will come back tomorrow has the same meaning as We will come back tomorrow if the shop is closed. When if is in the middle, we do not need a comma. Do not use will in the if-clause."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S1-Q08",
+          "type": "mcq",
+          "prompt": "Which sentence is correct in this unit?",
+          "prompt_zh": "請選出本單元中形式正確的句子（注意 were 的用法）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "If I were the class monitor, I would help new pupils."
+            },
+            {
+              "id": "B",
+              "text": "If I was the class monitor, I will help new pupils."
+            },
+            {
+              "id": "C",
+              "text": "If I were the class monitor, I will help new pupils."
+            },
+            {
+              "id": "D",
+              "text": "If I was the class monitor, I would help new pupils."
+            }
+          ],
+          "correct_option_id": "A",
+          "accepted_answers": [
+            "If I were the class monitor, I would help new pupils."
+          ],
+          "hints": {
+            "first_error": "For an unreal situation, use were after I, not was, and use would, not will, in the main clause."
+          },
+          "feedback": {
+            "correct": "正確。答案是 If I were the class monitor, I would help new pupils.",
+            "explanatory": "In second conditionals we use were for all subjects, including I. The main clause uses would + a base verb: If I were the class monitor, I would help new pupils. Do not write If I was, and do not use will in the main clause."
+          },
+          "teacher_review": false,
+          "marks": 1
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "order": 2,
+      "title": "Second conditional: were and would",
+      "title_zh": "第二關：第二條件句（were 與 would）",
+      "intro_zh": "本關專練第二條件句：條件子句用過去式，主句用 would 加動詞原形；所有主詞都用 were，不要寫 was，也不要把 will 當作 would。請先閱讀簡短提示，再作答。如第一次答錯，才會出現提示。",
+      "intro_en": "Practise second conditionals: past tense + would + base verb, and were for every subject.",
+      "teaching_required_before_questions": false,
+      "teaching_screens": [
+        {
+          "id": "S2-T1",
+          "title_zh": "復習：were 與 would",
+          "title_en": "Recap: were and would",
+          "body_zh": "談論不存在或不大可能的情況時，不要寫成第一條件句。正確形式是：If + 過去式，主句 would + 動詞原形。be 動詞一律用 were。would 後面必須接動詞原形，不可只寫 would 而漏掉動詞。",
+          "body_en": "Do not use a first-conditional pattern for an unreal or unlikely situation. Use If + past, and would + a base verb. Use were, not was. Do not leave out the base verb after would.",
+          "examples": [
+            {
+              "en": "If I were you, I would talk to the teacher.",
+              "note_zh": "If I were you，不是 If I was you；would talk，不是 will talk，也不可只寫 would。"
+            },
+            {
+              "en": "If she were a giant, she would carry the piano.",
+              "note_zh": "she 也要用 were，不是 was。"
+            }
+          ]
+        }
+      ],
+      "question_count": 7,
+      "questions": [
+        {
+          "id": "S2-Q01",
+          "type": "mcq",
+          "prompt": "Complete the sentence: If I _____ you, I would talk to the teacher.",
+          "prompt_zh": "請選出正確的動詞形式。",
+          "options": [
+            {
+              "id": "A",
+              "text": "was"
+            },
+            {
+              "id": "B",
+              "text": "were"
+            },
+            {
+              "id": "C",
+              "text": "am"
+            },
+            {
+              "id": "D",
+              "text": "will be"
+            }
+          ],
+          "correct_option_id": "B",
+          "accepted_answers": [
+            "were"
+          ],
+          "hints": {
+            "first_error": "In a second conditional, the verb be is were for every subject, including I."
+          },
+          "feedback": {
+            "correct": "正確。應填 were。",
+            "explanatory": "If I were you, I would talk to the teacher. In this unit we use were for all subjects. Do not write If I was you."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S2-Q02",
+          "type": "gap",
+          "prompt": "Complete the sentence with would and the verb in brackets: If I were a bird, I ________ over the hills. (fly)",
+          "prompt_zh": "請用 would 和括號中的動詞原形填空。",
+          "accepted_answers": [
+            "would fly",
+            "I'd fly",
+            "I would fly"
+          ],
+          "hints": {
+            "first_error": "This is unlikely. Use would and the base verb fly. Do not use will, and do not leave out fly."
+          },
+          "feedback": {
+            "correct": "正確。應填 would fly。",
+            "explanatory": "If I were a bird, I would fly over the hills. After would, keep the base verb fly. Do not write will fly, and do not write only would."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept would fly, I'd fly and I would fly (case-insensitive; apostrophes normalised). Do not accept will fly, would, flew, or would flying."
+        },
+        {
+          "id": "S2-Q03",
+          "type": "mcq",
+          "prompt": "Complete the sentence: If Katie _____ a mermaid, she _____ live in the sea.",
+          "prompt_zh": "請選出一對正確的動詞形式。",
+          "options": [
+            {
+              "id": "A",
+              "text": "was / will"
+            },
+            {
+              "id": "B",
+              "text": "is / will"
+            },
+            {
+              "id": "C",
+              "text": "were / would"
+            },
+            {
+              "id": "D",
+              "text": "were / will"
+            }
+          ],
+          "correct_option_id": "C",
+          "accepted_answers": [
+            "were / would"
+          ],
+          "hints": {
+            "first_error": "Katie is not really a mermaid. Use were, not was, and would, not will."
+          },
+          "feedback": {
+            "correct": "正確。應填 were / would。",
+            "explanatory": "If Katie were a mermaid, she would live in the sea. This is unreal, so we use were (for all subjects) and would + a base verb. Do not write was or will."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S2-Q04",
+          "type": "mcq",
+          "prompt": "Which sentence is correct?",
+          "prompt_zh": "請選出正確的第二條件句。",
+          "options": [
+            {
+              "id": "A",
+              "text": "If Leo was a wizard, he will turn the rain into sweets."
+            },
+            {
+              "id": "B",
+              "text": "If Leo were a wizard, he will turn the rain into sweets."
+            },
+            {
+              "id": "C",
+              "text": "If Leo is a wizard, he would turn the rain into sweets."
+            },
+            {
+              "id": "D",
+              "text": "If Leo were a wizard, he would turn the rain into sweets."
+            }
+          ],
+          "correct_option_id": "D",
+          "accepted_answers": [
+            "If Leo were a wizard, he would turn the rain into sweets."
+          ],
+          "hints": {
+            "first_error": "Use were (not was or is) after Leo, and would (not will) in the main clause."
+          },
+          "feedback": {
+            "correct": "正確。答案是 If Leo were a wizard, he would turn the rain into sweets.",
+            "explanatory": "This is unlikely, so we need a second conditional: If Leo were a wizard, he would turn the rain into sweets. A uses was and will. B uses will instead of would. C mixes a present if-clause with would."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S2-Q05",
+          "type": "gap",
+          "prompt": "Complete the sentence with the correct form of be: If Raj ________ the king, he would plant trees in every street. (be)",
+          "prompt_zh": "請填上 be 的正確形式。",
+          "accepted_answers": [
+            "were"
+          ],
+          "hints": {
+            "first_error": "Use the same form of be for Raj as you use for I in If I were … ."
+          },
+          "feedback": {
+            "correct": "正確。應填 were。",
+            "explanatory": "If Raj were the king, he would plant trees in every street. We use were for all subjects, including he. Do not write was, is or would be in this blank."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept only were. Do not accept was, is, are, or would be."
+        },
+        {
+          "id": "S2-Q06",
+          "type": "gap",
+          "prompt": "Complete the sentence with would and the verb in brackets: If I were you, I ________ to bed earlier tonight. (go)",
+          "prompt_zh": "請用 would 和括號中的動詞原形填空，勿漏掉動詞。",
+          "accepted_answers": [
+            "would go",
+            "I'd go",
+            "I would go"
+          ],
+          "hints": {
+            "first_error": "Keep would and the base verb go. Do not write will, and do not write would on its own."
+          },
+          "feedback": {
+            "correct": "正確。應填 would go。",
+            "explanatory": "If I were you, I would go to bed earlier tonight. After would you must keep the base verb go. A common mistake is to write only would, or to write will go."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept would go, I'd go and I would go. Do not accept will go, would, go, or would went."
+        },
+        {
+          "id": "S2-Q07",
+          "type": "mcq",
+          "prompt": "Which sentence is correct? The idea is unlikely: school on the moon.",
+          "prompt_zh": "請選出形式正確的句子（it 也要用 were）。",
+          "options": [
+            {
+              "id": "A",
+              "text": "If the school was on the moon, we will travel to class by rocket."
+            },
+            {
+              "id": "B",
+              "text": "If the school were on the moon, we will travel to class by rocket."
+            },
+            {
+              "id": "C",
+              "text": "If the school is on the moon, we would travel to class by rocket."
+            },
+            {
+              "id": "D",
+              "text": "If the school were on the moon, we would travel to class by rocket."
+            }
+          ],
+          "correct_option_id": "D",
+          "accepted_answers": [
+            "If the school were on the moon, we would travel to class by rocket."
+          ],
+          "hints": {
+            "first_error": "Even with it / the school, use were, not was, and would, not will."
+          },
+          "feedback": {
+            "correct": "正確。答案是 If the school were on the moon, we would travel to class by rocket.",
+            "explanatory": "We use were for all subjects, including it and the school. The main clause needs would travel, not will travel."
+          },
+          "teacher_review": false,
+          "marks": 1
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "order": 3,
+      "title": "Zero and first conditionals",
+      "title_zh": "第三關：零條件句與第一條件句",
+      "intro_zh": "本關練習零條件句（現在式 + 現在式，以及 should／祈使句建議）和第一條件句（現在式 + will）。第一條件句的 if 子句要用現在式，不要用 had 或 will。如第一次答錯，才會出現提示。",
+      "intro_en": "Practise zero conditionals (present + present, and advice with should or the imperative) and first conditionals (present + will).",
+      "teaching_required_before_questions": false,
+      "teaching_screens": [
+        {
+          "id": "S3-T1",
+          "title_zh": "復習：零條件句與第一條件句",
+          "title_en": "Recap: zero and first conditionals",
+          "body_zh": "表示永遠正確的事實時，兩部分都用現在式。提出建議時，主句可用 should 或祈使句。表示可能發生的結果時，if 子句用現在式，主句用 will；不要在 if 子句用 had 或 will。",
+          "body_en": "For facts, use present + present. For advice, the main clause may use should or an imperative. For a possible result, use present + will. Do not put had or will in a first-conditional if-clause.",
+          "examples": [
+            {
+              "en": "If you mix red and yellow, you get orange.",
+              "note_zh": "事實"
+            },
+            {
+              "en": "If you have a toothache, you should see the dentist.",
+              "note_zh": "建議"
+            },
+            {
+              "en": "If the bus is late tomorrow, we will wait in the hall.",
+              "note_zh": "可能的結果；if 子句用 is，不是 will be，也不是 was"
+            }
+          ]
+        }
+      ],
+      "question_count": 7,
+      "questions": [
+        {
+          "id": "S3-Q01",
+          "type": "gap",
+          "prompt": "Complete the sentence with the correct form of the verb: If you mix red and yellow paint, you ________ orange. (get)",
+          "prompt_zh": "請填上動詞的正確形式（零條件句：事實）。",
+          "accepted_answers": [
+            "get"
+          ],
+          "hints": {
+            "first_error": "This is always true. Use the present tense, not will get or got."
+          },
+          "feedback": {
+            "correct": "正確。應填 get。",
+            "explanatory": "If you mix red and yellow paint, you get orange. A zero-conditional fact uses the present tense in both parts. Do not write will get, got or would get."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept only get. Do not accept gets (wrong subject), will get, got, or getting."
+        },
+        {
+          "id": "S3-Q02",
+          "type": "gap",
+          "prompt": "Complete the sentence with the correct form of be: If the bus ________ late tomorrow, we will wait in the hall. (be)",
+          "prompt_zh": "請填上 be 的正確形式（第一條件句的 if 子句）。",
+          "accepted_answers": [
+            "is"
+          ],
+          "hints": {
+            "first_error": "This is a possible result tomorrow. After if, use the present tense of be, not will be and not was."
+          },
+          "feedback": {
+            "correct": "正確。應填 is。",
+            "explanatory": "If the bus is late tomorrow, we will wait in the hall. In a first conditional the if-clause uses the present tense. Do not write will be, was or were."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept only is."
+        },
+        {
+          "id": "S3-Q03",
+          "type": "gap",
+          "prompt": "Complete the sentence. The if-clause is already in the middle: We ________ the picnic if the wind is too strong. (cancel)",
+          "prompt_zh": "請填上動詞的正確形式（if 在句中的第一條件句）。",
+          "accepted_answers": [
+            "will cancel",
+            "we'll cancel"
+          ],
+          "hints": {
+            "first_error": "This is a possible plan. The main clause needs will and the base verb cancel."
+          },
+          "feedback": {
+            "correct": "正確。應填 will cancel。",
+            "explanatory": "We will cancel the picnic if the wind is too strong. The if-clause is in the middle, but the meaning is the same. Use will cancel, not cancel only, not would cancel, and not cancelled."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept will cancel and we'll cancel. Do not accept cancel, would cancel, cancelled, or will cancelled."
+        },
+        {
+          "id": "S3-Q04",
+          "type": "gap",
+          "prompt": "Complete the sentence with the correct form of have: The children will make sandwiches if they ________ enough bread. (have)",
+          "prompt_zh": "請填上 have 的正確形式。注意：這是第一條件句，不是第二條件句。",
+          "accepted_answers": [
+            "have"
+          ],
+          "hints": {
+            "first_error": "The main clause already uses will. After if, use the present tense of have, not had."
+          },
+          "feedback": {
+            "correct": "正確。應填 have。",
+            "explanatory": "The children will make sandwiches if they have enough bread. This is a first conditional, so the if-clause is present: have, not had. Had + would would be a second conditional, but the main clause here already uses will."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept only have. Do not accept had, has, will have, or would have."
+        },
+        {
+          "id": "S3-Q05",
+          "type": "gap",
+          "prompt": "Complete the sentence with should and the verb in brackets: If you have a toothache, you ________ the dentist. (see)",
+          "prompt_zh": "請用 should 和括號中的動詞填空（給予建議）。",
+          "accepted_answers": [
+            "should see"
+          ],
+          "hints": {
+            "first_error": "This is advice. Use should and the base verb see."
+          },
+          "feedback": {
+            "correct": "正確。應填 should see。",
+            "explanatory": "If you have a toothache, you should see the dentist. In a zero-conditional advice sentence, the main clause may use should + a base verb. Do not write will see or only see."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept should see only as the target. Do not accept see, will see, should saw, or ought to see for auto-marking (keep the unit word should)."
+        },
+        {
+          "id": "S3-Q06",
+          "type": "gap",
+          "prompt": "Complete the sentence with the negative imperative: If you’ve got a fever, ________ to school today. (not / go)",
+          "prompt_zh": "請用否定祈使句填空。",
+          "accepted_answers": [
+            "don't go",
+            "do not go",
+            "don’t go"
+          ],
+          "hints": {
+            "first_error": "This is advice with an imperative. Use don’t (or do not) and the base verb go."
+          },
+          "feedback": {
+            "correct": "正確。應填 don’t go（或 do not go）。",
+            "explanatory": "If you’ve got a fever, don’t go to school today. Advice in the main clause may use an imperative, including a negative imperative. Do not write shouldn’t go if the instruction asks for an imperative, and do not write didn’t go."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept don't go, do not go, and typographic variants of the apostrophe. Do not accept not go, didn't go, shouldn't go, or won't go for this keyed item."
+        },
+        {
+          "id": "S3-Q07",
+          "type": "mcq",
+          "prompt": "Which sentence is a zero-conditional fact that is always true?",
+          "prompt_zh": "請選出表示事實的零條件句。",
+          "options": [
+            {
+              "id": "A",
+              "text": "If you dropped a glass on a stone floor, it would break."
+            },
+            {
+              "id": "B",
+              "text": "If you dropped a glass on a stone floor, it breaks."
+            },
+            {
+              "id": "C",
+              "text": "If you drop a glass on a stone floor, it breaks."
+            },
+            {
+              "id": "D",
+              "text": "If you drop a glass on a stone floor, it will break during tomorrow’s lesson only."
+            }
+          ],
+          "correct_option_id": "C",
+          "accepted_answers": [
+            "If you drop a glass on a stone floor, it breaks."
+          ],
+          "hints": {
+            "first_error": "Choose the sentence that uses the present tense in both parts to state a general fact."
+          },
+          "feedback": {
+            "correct": "正確。答案是 If you drop a glass on a stone floor, it breaks.",
+            "explanatory": "This is a general fact, so both verbs are in the present tense. A uses a second-conditional pattern. D points to one future lesson, so it is not a general fact. B mixes a past if-clause with a present main clause."
+          },
+          "teacher_review": false,
+          "marks": 1
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "order": 4,
+      "title": "Adverbs too and either",
+      "title_zh": "第四關：副詞 too 與 either",
+      "intro_zh": "本關分辨 too 表示程度（超過適當的程度）、too 表示「也」（連接兩個肯定句），以及 either 表示「也」（連接兩個否定句）。請注意：課本所說的 positive ideas 是指肯定句，不是「好事」。不要把 either 和 too 連在一起寫。如第一次答錯，才會出現提示。",
+      "intro_en": "Practise too for degree, too = also with two affirmative ideas, and either = also with two negative ideas. Do not write either too.",
+      "teaching_required_before_questions": false,
+      "teaching_screens": [
+        {
+          "id": "S4-T1",
+          "title_zh": "too 與 either 的三種用法",
+          "title_en": "Three uses of too and either",
+          "body_zh": "too 可以表示程度，意思是「超過適當的程度／多於剛好」。too 也可以表示「也」，用來連接兩個肯定句（positive ideas 在本課是指肯定陳述，即使事情並不愉快，只要句子是肯定句，仍用 too）。either 也表示「也」，但只用來連接兩個否定句。不要寫 either too。",
+          "body_en": "too can express degree (= more than is good). too can also mean also, and links two affirmative (positive-form) ideas. either means also, and links two negative ideas. Do not combine either and too.",
+          "examples": [
+            {
+              "en": "The tea is too sweet. I can’t drink it.",
+              "note_zh": "程度：more than is good"
+            },
+            {
+              "en": "Sam is in the choir. Lily is in the choir too.",
+              "note_zh": "連接兩個肯定句，too = also"
+            },
+            {
+              "en": "I don’t like carrots. My brother doesn’t like carrots either.",
+              "note_zh": "連接兩個否定句，either = also"
+            },
+            {
+              "en": "Paul spilled water on his book. He tore a page too.",
+              "note_zh": "兩件都是不愉快的事，但兩句都是肯定句，所以用 too，不用 either。"
+            }
+          ]
+        }
+      ],
+      "question_count": 7,
+      "questions": [
+        {
+          "id": "S4-Q01",
+          "type": "gap",
+          "prompt": "Complete the sentence with too or either: The tea is ________ sweet. I can’t drink it.",
+          "prompt_zh": "請填上 too 或 either。",
+          "accepted_answers": [
+            "too"
+          ],
+          "hints": {
+            "first_error": "The tea is sweeter than is good. This is degree, not also."
+          },
+          "feedback": {
+            "correct": "正確。應填 too。",
+            "explanatory": "The tea is too sweet. I can’t drink it. Here too expresses degree: more than is good. We are not linking two sentences with also, so either is not used."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept only too."
+        },
+        {
+          "id": "S4-Q02",
+          "type": "gap",
+          "prompt": "Complete the sentence with too or either: Joyce can play the piano. Ken can play the piano ________.",
+          "prompt_zh": "請填上 too 或 either。",
+          "accepted_answers": [
+            "too"
+          ],
+          "hints": {
+            "first_error": "Both sentences are affirmative (they can …). Use the also-word that links two positive / affirmative ideas."
+          },
+          "feedback": {
+            "correct": "正確。應填 too。",
+            "explanatory": "Joyce can play the piano. Ken can play the piano too. Both ideas are affirmative, so too means also. Either is used after two negative ideas."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept only too. Do not accept either or either too."
+        },
+        {
+          "id": "S4-Q03",
+          "type": "gap",
+          "prompt": "Complete the sentence with too or either: I don’t enjoy horror films. My sister doesn’t enjoy them ________.",
+          "prompt_zh": "請填上 too 或 either。",
+          "accepted_answers": [
+            "either"
+          ],
+          "hints": {
+            "first_error": "Both sentences are negative (don’t / doesn’t). Use the also-word for two negative ideas."
+          },
+          "feedback": {
+            "correct": "正確。應填 either。",
+            "explanatory": "I don’t enjoy horror films. My sister doesn’t enjoy them either. Either links two negative ideas and means also. Do not write too, and do not write either too."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept only either. Do not accept too or either too."
+        },
+        {
+          "id": "S4-Q04",
+          "type": "mcq",
+          "prompt": "What is the use of too in this sentence? “This suitcase is too heavy for me to carry.”",
+          "prompt_zh": "請選出句中 too 的用法。",
+          "options": [
+            {
+              "id": "A",
+              "text": "to express degree (= more than is good)"
+            },
+            {
+              "id": "B",
+              "text": "to link two positive (affirmative) ideas (= also)"
+            },
+            {
+              "id": "C",
+              "text": "to link two negative ideas (= also)"
+            },
+            {
+              "id": "D",
+              "text": "to mean either"
+            }
+          ],
+          "correct_option_id": "A",
+          "accepted_answers": [
+            "to express degree (= more than is good)"
+          ],
+          "hints": {
+            "first_error": "There is only one idea here: the suitcase is heavier than is good."
+          },
+          "feedback": {
+            "correct": "正確。用法是 to express degree（= more than is good）。",
+            "explanatory": "This suitcase is too heavy for me to carry uses too for degree: the weight is more than is good. There is no second affirmative or negative idea being linked with also."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S4-Q05",
+          "type": "mcq",
+          "prompt": "Choose the correct ending and the correct reason: “Paul spilled water on his book. He tore a page _____ .”",
+          "prompt_zh": "兩句都是不愉快的事。請選出正確的詞語，並想一想本課中 positive 是指肯定句，不是「好事」。",
+          "options": [
+            {
+              "id": "A",
+              "text": "either — the two ideas are unhappy, so they are “negative ideas”"
+            },
+            {
+              "id": "B",
+              "text": "too — this too expresses degree (more than is good)"
+            },
+            {
+              "id": "C",
+              "text": "too — the two sentences are affirmative, so too means also"
+            },
+            {
+              "id": "D",
+              "text": "either too — we can put both words together"
+            }
+          ],
+          "correct_option_id": "C",
+          "accepted_answers": [
+            "too — the two sentences are affirmative, so too means also"
+          ],
+          "hints": {
+            "first_error": "Ask whether the sentences are affirmative or negative in form, not whether the events are pleasant."
+          },
+          "feedback": {
+            "correct": "正確。應填 too，因為兩句都是肯定句。",
+            "explanatory": "Paul spilled water on his book. He tore a page too. Both sentences are affirmative, so too means also and links two “positive ideas” in the grammar sense. The events are unfortunate, but that does not make the clauses negative. Either is used after negative verbs such as don’t or isn’t. Do not write either too. This is not degree: we are not saying “more than is good”."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S4-Q06",
+          "type": "mcq",
+          "prompt": "A pupil wrote: “I don’t want to join the drama club either too.” Which sentence is correct?",
+          "prompt_zh": "請選出正確的句子。不要把 either 和 too 連在一起。",
+          "options": [
+            {
+              "id": "A",
+              "text": "I don’t want to join the drama club too."
+            },
+            {
+              "id": "B",
+              "text": "I don’t want to join the drama club either too."
+            },
+            {
+              "id": "C",
+              "text": "I don’t want to join the drama club either."
+            },
+            {
+              "id": "D",
+              "text": "I don’t want to join the drama club too either."
+            }
+          ],
+          "correct_option_id": "C",
+          "accepted_answers": [
+            "I don’t want to join the drama club either."
+          ],
+          "hints": {
+            "first_error": "The sentence is negative (don’t). Use either on its own. Do not add too after either."
+          },
+          "feedback": {
+            "correct": "正確。答案是 I don’t want to join the drama club either.",
+            "explanatory": "After a negative idea, use either, not too, and do not write either too or too either. Too is the also-word after affirmative ideas."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S4-Q07",
+          "type": "gap",
+          "prompt": "Complete the sentence with a or an: When I grow up, I want to be ________ electrician. I want to be a computer engineer too.",
+          "prompt_zh": "請填上 a 或 an。請讀出後面單詞的起始音。",
+          "accepted_answers": [
+            "an"
+          ],
+          "hints": {
+            "first_error": "Electrician starts with a vowel sound. Use an, not a. The word too at the end is already correct."
+          },
+          "feedback": {
+            "correct": "正確。應填 an。",
+            "explanatory": "When I grow up, I want to be an electrician. I want to be a computer engineer too. We use an before a vowel sound (an electrician, an artist, an explorer). The two ideas are affirmative, so too is the correct also-word at the end."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept only an. Do not accept a."
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "order": 5,
+      "title": "Mixed practice and short writing",
+      "title_zh": "第五關：綜合練習與短寫",
+      "intro_zh": "本關綜合三種條件句和 too／either。最後一題為短寫，不設自動評分，交由教師審閱。如第一次答錯，才會出現提示。",
+      "intro_en": "Mix zero, first and second conditionals with too and either. The last item is short writing for the teacher.",
+      "teaching_required_before_questions": false,
+      "teaching_screens": [],
+      "question_count": 7,
+      "questions": [
+        {
+          "id": "S5-Q01",
+          "type": "mcq",
+          "prompt": "What type of conditional is this sentence? “If I were ten metres tall, I would clean the classroom windows easily.”",
+          "prompt_zh": "請選出句子所屬的條件句種類。",
+          "options": [
+            {
+              "id": "A",
+              "text": "Zero conditional"
+            },
+            {
+              "id": "B",
+              "text": "First conditional"
+            },
+            {
+              "id": "C",
+              "text": "Not a conditional sentence"
+            },
+            {
+              "id": "D",
+              "text": "Second conditional"
+            }
+          ],
+          "correct_option_id": "D",
+          "accepted_answers": [
+            "Second conditional"
+          ],
+          "hints": {
+            "first_error": "The speaker is not really ten metres tall. Look at were and would."
+          },
+          "feedback": {
+            "correct": "正確。這是 Second conditional。",
+            "explanatory": "The situation does not exist, so this is a second conditional: If I were ten metres tall, I would clean the classroom windows easily. The forms were and would also show the type."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S5-Q02",
+          "type": "gap",
+          "prompt": "Complete the sentence with the correct form of the verb: If we ________ early, we will get a good seat. (arrive)",
+          "prompt_zh": "請填上動詞的正確形式（第一條件句的 if 子句）。",
+          "accepted_answers": [
+            "arrive"
+          ],
+          "hints": {
+            "first_error": "The main clause already uses will. After if, use the present tense, not arrived and not will arrive."
+          },
+          "feedback": {
+            "correct": "正確。應填 arrive。",
+            "explanatory": "If we arrive early, we will get a good seat. In a first conditional the if-clause uses the present tense. Do not write arrived, will arrive or would arrive."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept only arrive."
+        },
+        {
+          "id": "S5-Q03",
+          "type": "gap",
+          "prompt": "Complete the sentence with would and the verb in brackets: If I were you, I ________ a raincoat. (take)",
+          "prompt_zh": "請用 would 和括號中的動詞原形填空。",
+          "accepted_answers": [
+            "would take",
+            "I'd take",
+            "I would take"
+          ],
+          "hints": {
+            "first_error": "If I were you is a second conditional. Use would and the base verb take, not will, and do not leave out take."
+          },
+          "feedback": {
+            "correct": "正確。應填 would take。",
+            "explanatory": "If I were you, I would take a raincoat. Use were (already given) and would take, not will take, and not would on its own."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept would take, I'd take and I would take. Do not accept will take, would, take, or would took."
+        },
+        {
+          "id": "S5-Q04",
+          "type": "gap",
+          "prompt": "Complete the sentence with the correct form of taste: This soup ________ better if you add a little salt. (taste)",
+          "prompt_zh": "請填上 taste 的正確形式（這是表示事實的零條件句）。",
+          "accepted_answers": [
+            "tastes"
+          ],
+          "hints": {
+            "first_error": "This is a general fact. The subject is This soup, so use the present form tastes, not the adjective tasty, and not tasted or made-style past forms."
+          },
+          "feedback": {
+            "correct": "正確。應填 tastes。",
+            "explanatory": "This soup tastes better if you add a little salt. Both parts of a zero-conditional fact are in the present tense: tastes and add. Do not write tasty (an adjective), taste, tasted or will taste."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept only tastes. Do not accept tasty, taste, tasted, or will taste."
+        },
+        {
+          "id": "S5-Q05",
+          "type": "gap",
+          "prompt": "Complete the sentence with too or either: The library isn’t open on Monday. It isn’t open on Tuesday ________.",
+          "prompt_zh": "請填上 too 或 either。",
+          "accepted_answers": [
+            "either"
+          ],
+          "hints": {
+            "first_error": "Both sentences use isn’t, so they are negative. Use the also-word for two negative ideas."
+          },
+          "feedback": {
+            "correct": "正確。應填 either。",
+            "explanatory": "The library isn’t open on Monday. It isn’t open on Tuesday either. Either links two negative ideas. Do not write too or either too."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept only either."
+        },
+        {
+          "id": "S5-Q06",
+          "type": "mcq",
+          "prompt": "A pupil wrote: “We will make fruit punch if we had some oranges.” Which sentence is correct?",
+          "prompt_zh": "請選出正確的第一條件句。",
+          "options": [
+            {
+              "id": "A",
+              "text": "We would make fruit punch if we have some oranges."
+            },
+            {
+              "id": "B",
+              "text": "We will make fruit punch if we have some oranges."
+            },
+            {
+              "id": "C",
+              "text": "We will make fruit punch if we had some oranges."
+            },
+            {
+              "id": "D",
+              "text": "We make fruit punch if we will have some oranges."
+            }
+          ],
+          "correct_option_id": "B",
+          "accepted_answers": [
+            "We will make fruit punch if we have some oranges."
+          ],
+          "hints": {
+            "first_error": "The main clause uses will, so this should be a first conditional. After if, use the present tense have, not had."
+          },
+          "feedback": {
+            "correct": "正確。答案是 We will make fruit punch if we have some oranges.",
+            "explanatory": "A first conditional needs a present if-clause: if we have some oranges, not if we had. C keeps the mistake (will + had). A mixes would with a present if-clause. D puts will in the if-clause, which we do not do in this unit."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S5-Q07",
+          "type": "teacher_review",
+          "prompt": "Write 2 or 3 complete sentences. Write one first conditional about a possible plan (present + will). Write one second conditional about something unlikely (past + would, and were not was if you need the verb be).",
+          "prompt_zh": "請用 2 至 3 個完整英文句子作答：寫一句第一條件句，說明一個可能實現的計劃（現在式 + will）；再寫一句第二條件句，說明一件不大可能的事（過去式 + would；如用到 be，請寫 were，不要寫 was）。此題不設自動評分，交由教師審閱。",
+          "accepted_answers": [],
+          "hints": {
+            "first_error": "Use complete sentences. Include one possible plan with if + present and will, and one unlikely idea with if + past and would. Use were, not was."
+          },
+          "feedback": {
+            "correct": "已提交，請交教師審閱。",
+            "explanatory": "There is no single correct answer. A good reply has one first-conditional plan and one second-conditional unlikely situation, with were rather than was. The teacher will review the writing. A model is provided for teachers only."
+          },
+          "teacher_review": true,
+          "marks": 3,
+          "accept_notes": "Open response. Suggested model (範例／教師用): If it is fine on Saturday, I will play football in the park. If I were a pilot, I would fly over Hong Kong. Any genuine first + second pair with suitable forms is acceptable. Do not auto-mark and do not award automatic mastery.",
+          "note": "teacher_review: do not auto-mark and do not treat submission as mastery. Show a state such as「已提交，請交教師審閱」. Do not use a strict sentence-count regex, because abbreviations such as Mr Brown must not be rejected. Accept any non-empty submission for hand-in; the teacher judges quality."
+        }
+      ]
+    }
+  ]
+}
