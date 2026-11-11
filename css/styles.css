@@ -1,0 +1,331 @@
+html {
+  font-size: 18px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+body {
+  font-family: "PingFang TC", "Noto Sans CJK TC", "Noto Sans TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
+  font-size: 18px;
+  line-height: 1.55;
+  color: #1c1915;
+  background: #f3efe6;
+}
+
+body,
+button,
+input,
+textarea,
+select,
+label,
+p,
+li,
+legend,
+h2,
+h3,
+.option,
+.stem,
+.direction,
+.memory-note,
+.scoreboard,
+.hint,
+.feedback,
+.status-line {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 1.35;
+  margin: 0 0 0.4rem;
+}
+
+h2,
+.screen-title,
+.stem {
+  font-size: 22px;
+  line-height: 1.4;
+  margin: 0 0 0.6rem;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 0 0 0.4rem;
+}
+
+p,
+ul,
+ol {
+  margin: 0 0 0.8rem;
+}
+
+a {
+  color: #1f4d38;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.5rem;
+  top: -4rem;
+  background: #fff;
+  color: #1c1915;
+  padding: 0.6rem 0.8rem;
+  z-index: 2;
+}
+
+.skip-link:focus {
+  top: 0.5rem;
+}
+
+.page {
+  width: 100%;
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 1rem 0.9rem 2.5rem;
+}
+
+.site-header,
+.panel,
+.menu-wrap {
+  background: #fffdf8;
+  border: 2px solid #e0d6c8;
+  border-radius: 12px;
+  padding: 0.9rem;
+  margin-bottom: 0.9rem;
+}
+
+.memory-note {
+  margin: 0 0 0.8rem;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  font-size: 18px;
+  color: inherit;
+}
+
+button {
+  min-height: 48px;
+  padding: 0.65rem 0.9rem;
+  border-radius: 10px;
+  border: 2px solid #1f4d38;
+  background: #fffdf8;
+  cursor: pointer;
+}
+
+button.primary {
+  background: #1f4d38;
+  color: #fff;
+}
+
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+.option:focus-within {
+  outline: 3px solid #0b3d91;
+  outline-offset: 2px;
+}
+
+.button-row,
+.jump-list,
+.station-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.station-menu button,
+.jump-list button,
+.button-row button {
+  flex: 1 1 100%;
+}
+
+.station-menu button[aria-current="page"] {
+  background: #1f4d38;
+  color: #fff;
+}
+
+.scoreboard strong {
+  font-weight: 700;
+}
+
+.screen-en,
+.example-en,
+.stem,
+.option-text,
+.intro-en {
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
+}
+
+.example {
+  background: #f7f3ea;
+  border-left: 4px solid #1f4d38;
+  padding: 0.7rem 0.8rem;
+  margin: 0 0 0.7rem;
+}
+
+.example p:last-child {
+  margin-bottom: 0;
+}
+
+.example-label {
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  width: 100%;
+  max-width: 100%;
+  min-height: 48px;
+  margin: 0 0 0.55rem;
+  padding: 0.65rem 0.75rem;
+  border: 2px solid #cfc3b2;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.option input {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-top: 0.2rem;
+  flex: 0 0 auto;
+}
+
+.option-id {
+  font-weight: 700;
+  min-width: 1.4rem;
+}
+
+.option-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+.option:has(input:checked) {
+  border-color: #1f4d38;
+  background: #e7f3ec;
+}
+
+.option.is-key {
+  box-shadow: inset 4px 0 0 #1f4d38;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+.gap-input,
+.writing-input {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 48px;
+  padding: 0.55rem 0.7rem;
+  border: 2px solid #cfc3b2;
+  border-radius: 10px;
+  background: #fff;
+  margin: 0.3rem 0 0.8rem;
+}
+
+.writing-input {
+  min-height: 9rem;
+  resize: vertical;
+  white-space: pre-wrap;
+}
+
+.hint,
+.feedback,
+.status-line,
+.form-error {
+  padding: 0.7rem 0.8rem;
+  border-radius: 10px;
+  margin: 0 0 0.7rem;
+  overflow-wrap: anywhere;
+}
+
+.hint {
+  background: #e8f1fb;
+  border: 2px solid #b7cce6;
+}
+
+.feedback {
+  background: #f7f3ea;
+  border: 2px solid #e0d6c8;
+}
+
+.status-ok {
+  background: #e5f6ea;
+  border: 2px solid #b7dfc4;
+}
+
+.status-no {
+  background: #fdecec;
+  border: 2px solid #f0c2c2;
+}
+
+.status-wait {
+  background: #fff6db;
+  border: 2px solid #ead48a;
+}
+
+.form-error {
+  background: #fdecec;
+  border: 2px solid #f0c2c2;
+}
+
+.pupil-text {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  background: #fff;
+  border: 2px dashed #cfc3b2;
+  border-radius: 10px;
+  padding: 0.7rem 0.8rem;
+  margin: 0 0 0.8rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (min-width: 800px) {
+  .page {
+    padding: 1.4rem 1.2rem 3rem;
+  }
+
+  .station-menu button,
+  .jump-list button,
+  .button-row button {
+    flex: 1 1 12rem;
+  }
+}

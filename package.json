@@ -1,0 +1,13 @@
+{
+  "name": "peter-gb-exam",
+  "private": true,
+  "description": "Classroom practice page for conditionals and too/either.",
+  "scripts": {
+    "test": "node --test tests/content.test.mjs tests/marking.test.mjs && node tests/browser.test.mjs",
+    "test:unit": "node --test tests/content.test.mjs tests/marking.test.mjs",
+    "test:browser": "node tests/browser.test.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "24.15.0"
+  }
+}
